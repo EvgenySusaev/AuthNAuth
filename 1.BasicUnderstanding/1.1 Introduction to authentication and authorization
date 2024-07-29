@@ -1,0 +1,83 @@
+# Introducation to authentication and authorization
+
+## Key Concepts
+
+
+### Identification
+
+It answers the question, "Who are you?"
+Identification is the process of claiming an identity.
+Typically involves providing a unique identifier such as a username, email address, or user ID.
+
+
+### Authentication
+
+It answers the question, "Are you really who you claim to be?"
+Authentication is the process of verifying the claimed identity.
+Involves verifying the identifier (e.g., username) along with a secret or credential (e.g., password, biometric data, token).
+
+
+### Authorization
+
+It answers the question, "What are you allowed to do?"
+Authorization is the process of determining what an authenticated user is allowed to do.
+Involves checking permissions, roles, or policies to grant or deny access to resources or actions.
+
+
+## Types of authentication
+
+1. Password-based Authentication:
+
+Users enter a secret password that is compared to a stored hash of the password.
+
+2. Multi-factor Authentication (MFA):
+
+Combines two or more authentication factors, such as something you know (password), something you have (smartphone with an authentication app), and something you are (fingerprint).
+
+3. Biometric Authentication:
+
+Uses sensors to capture biological characteristics like fingerprints, facial patterns, or iris details, which are then compared to stored templates.
+
+4. Token-based Authentication:
+
+Involves a device (physical or software) that generates a unique, time-sensitive code which the user enters along with their password.
+
+5. Certificate-based Authentication:
+
+Utilizes digital certificates containing a public key and the identity of the certificate holder issued by a trusted Certificate Authority (CA).
+
+6. Smart Card Authentication:
+
+Users insert a smart card containing an embedded microchip into a card reader, which then communicates with the authentication system.
+
+7. Single Sign-On (SSO):
+
+Users log in once with a single set of credentials to access multiple applications. This is often implemented using tokens or federated identity management.
+
+8. OAuth:
+
+Users grant third-party applications access to their information without sharing passwords, using tokens provided by the OAuth service.
+
+9. SAML (Security Assertion Markup Language):
+
+Exchanges authentication and authorization data between an identity provider and a service provider using XML-based messages.
+
+10. Kerberos Authentication:
+
+Employs a trusted third-party (Key Distribution Center) to issue tickets that authenticate users and services within a network.
+
+11. OpenID Connect:
+
+Adds an identity layer on top of the OAuth 2.0 protocol, allowing clients to verify the identity of the end-user based on the authentication performed by an authorization server.
+
+12. Behavioral Biometrics:
+
+Continuously monitors and analyzes user behavior such as typing rhythm, mouse movements, or device usage patterns to authenticate users.
+
+13. Risk-based Authentication:
+
+Assesses the risk of a login attempt by analyzing factors such as location, device, and behavior, and dynamically adjusts the authentication requirements accordingly.
+
+14. Hardware Tokens (e.g., YubiKey):
+
+Users authenticate by connecting a physical device like a YubiKey to their computer or mobile device, which then provides a one-time password or cryptographic signature.
