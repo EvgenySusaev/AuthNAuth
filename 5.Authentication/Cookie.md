@@ -27,3 +27,6 @@
    Example Flow:
    User logs in → Server authenticates → Server sets a session cookie (Set-Cookie: sessionId=xyz; HttpOnly; Secure) → Browser stores the cookie → User makes another request → Browser sends Cookie: sessionId=xyz → Server recognizes the user.
    The specific implementation details, such as how the cookie is encrypted and what data it contains, depend on the security and design considerations of the application you're working on.
+
+More info about :
+https://support.microsoft.com/en-us/topic/description-of-cookies-ad01aa7e-66c9-8ab2-7898-6652c100999d
