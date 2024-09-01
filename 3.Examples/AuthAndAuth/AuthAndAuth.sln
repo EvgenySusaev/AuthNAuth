@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationShemas", "AuthenticationShemas\AuthenticationShemas.csproj", "{A31A3BF4-8E42-41B2-B688-CD583FF68F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31A3BF4-8E42-41B2-B688-CD583FF68F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31A3BF4-8E42-41B2-B688-CD583FF68F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31A3BF4-8E42-41B2-B688-CD583FF68F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31A3BF4-8E42-41B2-B688-CD583FF68F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
