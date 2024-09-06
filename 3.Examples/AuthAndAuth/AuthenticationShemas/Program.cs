@@ -39,7 +39,7 @@ app.MapGet("/login", async (context) => {
     // Create user claims and identity for 'local' authentication
     var claims = new List<Claim> { new Claim("user", "Alice") };
     var identity = new ClaimsIdentity(claims, "local");
-    var userPrincipal = new ClaimsPrincipal(identity);
+    var userPrincipal = new ClaimsPrincipal(identity); // who you are as a user
 
     // Sign in the user with the 'local' authentication scheme
     await context.SignInAsync("local", userPrincipal);

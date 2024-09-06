@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationShemas", "Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityProvider", "IdentityProvider\IdentityProvider.csproj", "{096115A3-1975-4A0A-ABBB-0F23A40D1095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebuilding", "Rebuilding\Rebuilding.csproj", "{C6840C11-E7AF-404E-A576-C9B03CF870D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{096115A3-1975-4A0A-ABBB-0F23A40D1095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096115A3-1975-4A0A-ABBB-0F23A40D1095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096115A3-1975-4A0A-ABBB-0F23A40D1095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6840C11-E7AF-404E-A576-C9B03CF870D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6840C11-E7AF-404E-A576-C9B03CF870D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6840C11-E7AF-404E-A576-C9B03CF870D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6840C11-E7AF-404E-A576-C9B03CF870D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
